@@ -1,0 +1,86 @@
+* {
+  font-family: "Montserrat";
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: mmin-content;
+}
+
+body {
+  background-size: cover;
+  background-color: rgb(33, 33, 33);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.primeiraParte {
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.primeiraParte h1 {
+  font-size: 7rem;
+}
+
+.primeiraParte h2 {
+  font-size: 4rem;
+  margin-top: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.logo {
+  height: 117px;
+  width: 300px;
+}
+
+.logo2 {
+  height: 105px;
+  width: 300px;
+}
+
+.logos {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.informacoes {
+  margin-top: 100px;
+}
+.iconechevron {
+  font-size: 25rem;
+}
+
+.segtexto {
+  background-color: white;
+}
+
+.segtexto h1 {
+  font-size: 6rem;
+}
+
+.segtexto h2 {
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+.segundaParte {
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagemsegparte img {
+  height: 150rem;
+  width: 50rem;
+}
