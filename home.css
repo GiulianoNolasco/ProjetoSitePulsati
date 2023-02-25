@@ -40,20 +40,29 @@ h2{
     justify-content: left;
 }
 
-.corpo a{
-    background-color: purple; 
-    justify-content: left;
+.ladoEsquerdo a{
+    background-color: rgb(185, 0, 185); 
+    justify-content: center;
     margin-top: 20px; 
     margin-left: 15px; 
-    font-size: 25px; 
+    font-size: 20px; 
     text-decoration: none;
     display: flex;
-    text-align : center;
     border: 1px solid;
     color: white;
     border-color: transparent;
     border-width: 10px;
-    border-radius: 20px;
+    border-radius: 0;
     width: 135px;
-    
+}
+
+.ladoDireito img{
+    width: 570px;
+    margin-left:150px;
+    margin-top: -55px;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: row;
 }
