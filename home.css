@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: black;
+    font-family: "Montserrat";
 }
 
 .topo {
@@ -12,27 +13,33 @@
     margin: 10px;
     padding: 10px;
     color: white;
+    align-items: center;
+}
+
+.topo img{
+    width: 40px;
 }
 
 .topo a{
-    color: white;
+    color: rgb(216, 216, 216);
     text-decoration: none;
 }
 
 .topo a:hover{
-    text-decoration: underline;
+    color: white;
 }
 
 h1{
-    padding-top: 85px; 
+    padding-top: 65px; 
     padding-left: 15px;
     color: white;
     display: flex;
     justify-content: left;
     font-size: 65px;
+    
 }
 h2{
-    padding-top: 85px; 
+    padding-top: 50px; 
     padding-left: 15px;
     font-size: 30px;
     color: white;
@@ -43,7 +50,7 @@ h2{
 .ladoEsquerdo a{
     background-color: rgb(185, 0, 185); 
     justify-content: center;
-    margin-top: 20px; 
+    margin-top: 50px; 
     margin-left: 15px; 
     font-size: 20px; 
     text-decoration: none;
