@@ -94,7 +94,10 @@ button {
 }
 
 button:hover {
-  background-color: rgb(202, 86, 183);
+  transition: 1.5s;
+  border: 0.5px solid rgb(185, 0, 185);
+  background-color: white;
+  color: rgb(185, 0, 185);
 }
 
 .botaodiv a {
