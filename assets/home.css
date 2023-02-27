@@ -45,7 +45,7 @@ body {
 }
 
 .topo a:hover {
-  color: white;
+  color: rgb(197, 102, 197);
 }
 .ladoEsquerdo {
   margin: 10rem;
