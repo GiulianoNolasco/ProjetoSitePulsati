@@ -18,7 +18,7 @@ body {
   border: 5rem solid white;
   min-height: 100vh;
 }
-.ladoEsquerdo img{
+.ladoEsquerdo img {
   width: 90rem;
 }
 .topo {
@@ -69,9 +69,9 @@ h2 {
   font-size: 6rem;
   color: white;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   text-align: center;
-  width: max-content;
+  width: auto;
 }
 .botaodiv {
   width: max-content;
@@ -89,7 +89,7 @@ button {
   width: 50rem;
   gap: 3rem;
   color: white;
-  background-color: rgb(185, 0, 185);
+  background-color: rgb(197, 102, 197);
   margin-top: 20rem;
   justify-content: center;
   align-items: center;
@@ -98,9 +98,9 @@ button {
 
 button:hover {
   transition: 1.5s;
-  border: 0.5px solid rgb(185, 0, 185);
+  border: 0.5px solid rgb(201, 96, 201);
   background-color: white;
-  color: rgb(185, 0, 185);
+  color: rgb(197, 102, 197);
 }
 
 .botaodiv a {
@@ -132,47 +132,88 @@ button:hover {
   * {
     font-size: 17%;
   }
-  .quemsomos {
-    display: none;
-  }
 
   .ladoDireito img {
-    display: none;
+    width: 70rem;
+    height: 70rem;
+    /* position: fixed; */
+    /* bottom: 5rem; */
+    /* right: 5rem; */
+  }
+
+  .corpo {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
   }
 }
-
 @media screen and (min-width: 321px) and (max-width: 568px) {
   * {
-    font-size: 20%;
-  }
-  .quemsomos {
-    display: none;
+    font-size: 18%;
   }
 
   .ladoDireito img {
-    display: none;
+    width: 70rem;
+    height: 70rem;
+    /* position: fixed; */
+    /* bottom: 5rem; */
+    /* right: 5rem; */
+  }
+
+  .corpo {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
   }
 }
 
 @media screen and (min-width: 569px) and (max-width: 768px) {
   * {
-    font-size: 22.5%;
+    font-size: 18.5%;
   }
 
   .ladoDireito img {
-    display: none;
+    width: 70rem;
+    height: 70rem;
+    /* position: fixed; */
+    /* bottom: 5rem; */
+    /* right: 5rem; */
+  }
+
+  .corpo {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   * {
-    font-size: 25%;
+    font-size: 22%;
+  }
+
+  .ladoDireito img {
+    width: 90rem;
+    height: 90rem;
+    /* position: fixed; */
+    /* bottom: 5rem; */
+    /* right: 5rem; */
+  }
+
+  .corpo {
+    align-items: left;
+    /* justify-content: space-between; */
+    display: flex;
+    /* flex-direction: column; */
   }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
   * {
-    font-size: 27.5%;
+    font-size: 25%;
   }
 
   .topo {
@@ -180,12 +221,27 @@ button:hover {
   }
   button {
     font-size: 5rem;
+  }
+
+  .ladoDireito img {
+    width: 110rem;
+    height: 110rem;
+    /* position: fixed; */
+    /* bottom: 5rem; */
+    /* right: 5rem; */
+  }
+
+  .corpo {
+    align-items: left;
+    /* justify-content: space-between; */
+    display: flex;
+    /* flex-direction: column; */
   }
 }
 
 @media screen and (min-width: 1367px) and (max-width: 1680px) {
   * {
-    font-size: 30%;
+    font-size: 27%;
   }
 
   .topo {
@@ -194,9 +250,24 @@ button:hover {
   button {
     font-size: 5rem;
   }
+
+  .ladoDireito img {
+    width: 110rem;
+    height: 110rem;
+    /* position: fixed; */
+    /* bottom: 5rem; */
+    /* right: 5rem; */
+  }
+
+  .corpo {
+    align-items: left;
+    /* justify-content: space-between; */
+    display: flex;
+    /* flex-direction: column; */
+  }
 }
 
-@media screen and (min-width: 1681px) {
+@media screen and (min-width: 1681px) and (max-width: 1800px) {
   * {
     font-size: 30.5%;
   }
@@ -206,5 +277,52 @@ button:hover {
 
   button {
     font-size: 5rem;
+  }
+
+  .ladoDireito img {
+    width: 150rem;
+    height: 150rem;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+  }
+
+  .corpo {
+    align-items: left;
+    /* justify-content: space-between; */
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 30rem;
+    margin-top: 20rem;
+  }
+}
+
+@media screen and (min-width: 1801px) {
+  * {
+    font-size: 40%;
+  }
+  .topo {
+    font-size: 15rem;
+  }
+
+  button {
+    font-size: 5rem;
+  }
+
+  .ladoDireito img {
+    width: 150rem;
+    height: 150rem;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+  }
+
+  .corpo {
+    align-items: left;
+    /* justify-content: space-between; */
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 30rem;
+    margin-top: 20rem;
   }
 }
