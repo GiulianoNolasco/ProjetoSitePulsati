@@ -69,7 +69,7 @@ button:hover{
 }
 
 .ladoDireito img{
-    width: 570px;
+    width: 300px;
     margin-left:150px;
     margin-top: -55px;
 }
@@ -79,13 +79,71 @@ button:hover{
     flex-direction: row;
 }
 
-@media screen and (max-width: 850px )  {
-        .ladoEsquerdo{
 
+/* media query ------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 320px) {
+    * {
+      font-size: 15%;
+    }
+  }
+  
+  @media screen and (min-width: 321px) and (max-width: 568px) {
+    * {
+      font-size: 17.5%;
+    }
+  }
+  
+  @media screen and (min-width: 569px) and (max-width: 768px) {
+    * {
+      font-size: 20%;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    * {
+      font-size: 22.5%;
+    }
+  }
+  
+  @media screen and (min-width: 1025px) and (max-width: 1366px) {
+    * {
+      font-size: 25%;
+    }
+  }
+  
+  @media screen and (min-width: 1367px) and (max-width: 1680px) {
+    * {
+      font-size: 30%;
+    }
+  }
+  
+  @media screen and (min-width: 1681px) {
+    * {
+      font-size: 35%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 850px )  {
+        .ladoEsquerdo{
             justify-content: center;
             align-items: center;
             text-align: center;
-
         }
 
         h1 {
@@ -93,6 +151,7 @@ button:hover{
         }
         h2{
             text-align: center;
+            display: block;
         }
         .corpo{
             flex-direction: column;
@@ -103,8 +162,17 @@ button:hover{
             width: 470px;
             display: none;
         }
+        
+        button{
+            display: block;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+
+        }
 }
 
 @media screen and (max-width: 2000px ) and (min-width: 851px) {
     
-}
+} */
+
