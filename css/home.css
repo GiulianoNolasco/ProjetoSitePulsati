@@ -144,8 +144,8 @@ button:hover {
   .imgPequena{
     display: flex;
     align-items: center;
-    width: 40rem;
-    height: 40rem;
+    width: 50rem;
+    height: 50rem;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 568px) {
@@ -166,8 +166,8 @@ button:hover {
   .imgPequena{
     display: flex;
     align-items: center;
-    width: 40rem;
-    height: 40rem;
+    width: 50rem;
+    height: 50rem;
   }
 }
 
