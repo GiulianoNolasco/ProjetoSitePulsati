@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 * {
   font-family: "Roboto", sans-serif;
   font-size: 62.5%;
@@ -17,7 +18,9 @@ body {
   border: 5rem solid white;
   min-height: 100vh;
 }
-
+.ladoEsquerdo img{
+  width: 90rem;
+}
 .topo {
   display: flex;
   justify-content: left;
@@ -48,7 +51,7 @@ body {
   margin: 10rem;
 }
 
-h1 {
+/* h1 {
   width: max-content;
   padding-top: 10rem;
   padding-left: 0.5rem;
@@ -57,7 +60,7 @@ h1 {
   justify-content: left;
   font-size: 9rem;
   text-align: center;
-}
+} */
 
 h2 {
   width: max-content;
@@ -110,8 +113,8 @@ button:hover {
   align-items: end;
 }
 .ladoDireito img {
-  width: 120rem;
-  height: 140rem;
+  width: 130rem;
+  height: 130rem;
   position: fixed;
   bottom: 5rem;
   right: 5rem;
