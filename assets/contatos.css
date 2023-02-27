@@ -19,7 +19,9 @@ body {
 }
 
 /* ------------------------------------------HEADER----------------------------------------- */
-
+.contatos {
+  display: none;
+}
 .topo {
   display: flex;
   justify-content: left;
@@ -41,10 +43,11 @@ body {
   color: rgb(216, 216, 216);
   text-decoration: none;
   width: max-content;
+  transition: 1s;
 }
 
 .topo a:hover {
-  color: white;
+  color: rgb(10, 134, 134);
 }
 /* ------------------------------------------HEADER----------------------------------------- */
 
@@ -66,6 +69,11 @@ body {
 
 .primeiraParte h1 {
   font-size: 9rem;
+  transition: 1s;
+}
+
+.primeiraParte h1:hover {
+  color: rgb(10, 134, 134);
 }
 
 .primeiraParte h2 {

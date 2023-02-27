@@ -41,13 +41,17 @@ body {
   color: rgb(216, 216, 216);
   text-decoration: none;
   width: max-content;
+  transition: 1s;
 }
 
 .topo a:hover {
-  color: white;
+  color: rgb(197, 102, 197);
 }
 /* ------------------------------------------HEADER----------------------------------------- */
 
+.saibamais {
+  display: none;
+}
 .tudo {
   border: 5rem solid white;
   min-height: 100vh;
