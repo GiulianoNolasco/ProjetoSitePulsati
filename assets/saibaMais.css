@@ -92,7 +92,7 @@ body {
 }
 
 .informacoes {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .iconechevron i {
@@ -180,6 +180,10 @@ body {
   border: 0.5px solid white;
   background-color: black;
   color: rgb(250, 227, 230);
+}
+.mulheres {
+  height: 40rem;
+  width: 80rem;
 }
 
 /* media query ------------------------------------------------------------------------------- */
