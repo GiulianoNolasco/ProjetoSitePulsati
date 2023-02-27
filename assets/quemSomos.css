@@ -18,9 +18,39 @@ body {
   min-height: 100vh;
 }
 
+/* ------------------------------------------HEADER----------------------------------------- */
+
+.topo {
+  display: flex;
+  justify-content: left;
+  gap: 4rem;
+  margin: 5rem;
+  color: white;
+  align-items: center;
+  font-size: 25rem;
+  height: 10rem;
+  width: max-content;
+}
+
+.topo img {
+  width: 9rem;
+  height: 9rem;
+}
+
+.topo a {
+  color: rgb(216, 216, 216);
+  text-decoration: none;
+  width: max-content;
+}
+
+.topo a:hover {
+  color: white;
+}
+/* ------------------------------------------HEADER----------------------------------------- */
+
 .primeiraParte {
   color: white;
-  margin: 20rem 10rem 0 10rem;
+  margin: 10rem 10rem 0 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,8 +156,8 @@ body {
 
 .divbotao {
   display: flex;
-  justify-content: center;
-  gap: 15rem;
+  justify-content: space-evenly;
+  gap: 5rem;
 }
 
 .botaoInscrever {
@@ -173,6 +203,10 @@ body {
   .textosegparteh2 h2 {
     font-size: 3.5rem;
   }
+
+  .topo {
+    font-size: 15rem;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -181,6 +215,10 @@ body {
   }
   .textosegparteh2 h2 {
     font-size: 3.5rem;
+  }
+
+  .topo {
+    font-size: 10rem;
   }
 }
 
@@ -191,6 +229,10 @@ body {
   .textosegparteh2 h2 {
     font-size: 3.5rem;
   }
+
+  .topo {
+    font-size: 8rem;
+  }
 }
 
 @media screen and (min-width: 1367px) and (max-width: 1680px) {
@@ -200,6 +242,10 @@ body {
 
   .textosegparteh2 h2 {
     font-size: 3.5rem;
+  }
+
+  .topo {
+    font-size: 8rem;
   }
 }
 
@@ -213,5 +259,9 @@ body {
   }
   .segundaParte {
     margin: 20rem;
+  }
+
+  .topo {
+    font-size: 7rem;
   }
 }
