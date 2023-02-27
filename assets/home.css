@@ -139,6 +139,7 @@ button:hover {
     /* position: fixed; */
     /* bottom: 5rem; */
     /* right: 5rem; */
+    display: none;
   }
 
   .corpo {
@@ -159,6 +160,7 @@ button:hover {
     /* position: fixed; */
     /* bottom: 5rem; */
     /* right: 5rem; */
+    display: none;
   }
 
   .corpo {
@@ -183,10 +185,10 @@ button:hover {
   }
 
   .corpo {
-    align-items: center;
-    justify-content: space-between;
+    align-items: left;
+    /* justify-content: left; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 }
 
@@ -267,7 +269,7 @@ button:hover {
   }
 }
 
-@media screen and (min-width: 1681px) and (max-width: 1800px) {
+@media screen and (min-width: 1681px) {
   * {
     font-size: 30.5%;
   }
@@ -280,38 +282,8 @@ button:hover {
   }
 
   .ladoDireito img {
-    width: 150rem;
-    height: 150rem;
-    position: fixed;
-    bottom: 5rem;
-    right: 5rem;
-  }
-
-  .corpo {
-    align-items: left;
-    /* justify-content: space-between; */
-    display: flex;
-    /* flex-direction: column; */
-    margin-left: 30rem;
-    margin-top: 20rem;
-  }
-}
-
-@media screen and (min-width: 1801px) {
-  * {
-    font-size: 40%;
-  }
-  .topo {
-    font-size: 15rem;
-  }
-
-  button {
-    font-size: 5rem;
-  }
-
-  .ladoDireito img {
-    width: 150rem;
-    height: 150rem;
+    width: 120rem;
+    height: 120rem;
     position: fixed;
     bottom: 5rem;
     right: 5rem;
