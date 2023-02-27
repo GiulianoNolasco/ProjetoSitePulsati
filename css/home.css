@@ -101,13 +101,17 @@ button:hover {
   justify-content: right;
   align-items: end;
 }
-.ladoDireito img {
+.imgGrande {
   width: 130rem;
   height: 130rem;
   position: fixed;
   bottom: 5rem;
   right: 5rem;
   background-color: transparent;
+}
+
+.imgPequena{
+  display: none;
 }
 
 .corpo {
@@ -122,7 +126,7 @@ button:hover {
     font-size: 17%;
   }
 
-  .ladoDireito img {
+  .imgGrande {
     width: 70rem;
     height: 70rem;
   }
@@ -133,7 +137,13 @@ button:hover {
     display: flex;
     flex-direction: column;
   }
-  .ladoDireito img {
+  .imgGrande {
+    display: none;
+  }
+
+  .imgPequena{
+    display: flex;
+    align-items: center;
     width: 60rem;
     height: 60rem;
   }
@@ -143,9 +153,8 @@ button:hover {
     font-size: 18%;
   }
 
-  .ladoDireito img {
-    width: 50rem;
-    height: 50rem;
+  .imgGrande {
+    display: none;
   }
 
   .corpo {
@@ -154,6 +163,12 @@ button:hover {
     display: flex;
     flex-direction: column;
   }
+  .imgPequena{
+    display: flex;
+    align-items: center;
+    width: 60rem;
+    height: 60rem;
+  }
 }
 
 @media screen and (min-width: 569px) and (max-width: 768px) {
@@ -161,7 +176,7 @@ button:hover {
     font-size: 18.5%;
   }
 
-  .ladoDireito img {
+  .imgGrande {
     width: 70rem;
     height: 70rem;
   }
@@ -179,7 +194,7 @@ button:hover {
     font-size: 22%;
   }
 
-  .ladoDireito img {
+  .imgGrande {
     width: 90rem;
     height: 90rem;
   }
@@ -202,7 +217,7 @@ button:hover {
     font-size: 5rem;
   }
 
-  .ladoDireito img {
+  .imgGrande {
     width: 100rem;
     height: 100rem;
   }
@@ -225,7 +240,7 @@ button:hover {
     font-size: 5rem;
   }
 
-  .ladoDireito img {
+  .imgGrande {
     width: 110rem;
     height: 110rem;
   }
@@ -248,7 +263,7 @@ button:hover {
     font-size: 5rem;
   }
 
-  .ladoDireito img {
+  .imgGrande {
     width: 130rem;
     height: 130rem;
     position: fixed;
