@@ -19,7 +19,9 @@ body {
 }
 
 /* ------------------------------------------HEADER----------------------------------------- */
-
+.contatos {
+  display: none;
+}
 .topo {
   display: flex;
   justify-content: left;
@@ -41,10 +43,11 @@ body {
   color: rgb(216, 216, 216);
   text-decoration: none;
   width: max-content;
+  transition: 1s;
 }
 
 .topo a:hover {
-  color: rgb(197, 102, 197);
+  color: rgb(10, 134, 134);
 }
 /* ------------------------------------------HEADER----------------------------------------- */
 
@@ -64,9 +67,13 @@ body {
   height: auto;
 }
 
-
 .primeiraParte h1 {
   font-size: 9rem;
+  transition: 1s;
+}
+
+.primeiraParte h1:hover {
+  color: rgb(10, 134, 134);
 }
 
 .primeiraParte h2 {
@@ -75,34 +82,26 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
 .logo {
-  height: 9.75rem;
-  width: 25rem;
+  height: 16.75rem;
+  width: 40rem;
+  background: transparent;
 }
 
 .logo2 {
-  height: 8.75rem;
-  width: 25rem;
-}
-
-.logos {
-  margin: 10rem 10rem 10rem 10rem;
-  display: flex;
-  justify-content: center;
-  gap: 8rem;
+  height: 15.75rem;
+  width: 40rem;
+  background: transparent;
 }
 
 .informacoes {
-  margin-top: 5rem;
-  animation: go-back 3s;
-}
-@keyframes go-back {
-  from {
-    transform: translateX(100px);
-  }
-  to {
-    transform: translateX(0);
-  }
+  margin-top: 10rem;
 }
 
 .iconechevron i {
@@ -114,28 +113,29 @@ body {
   margin: 5rem;
   width: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .h1segtexto {
-  width: 50%;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
-  height: auto;
+  width: 50%;
 }
 
 .segtexto h1 {
   font-size: 7rem;
   margin-bottom: 5rem;
   /* height: auto; */
+  color: white;
 }
 
 .textosegparteh2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   height: auto;
   width: auto;
   margin: 5rem;
@@ -147,7 +147,7 @@ body {
 }
 
 .segundaParte {
-  background-color: rgb(250, 227, 230);
+  background-color: rgb(10, 134, 134);
   margin: 10rem;
   display: flex;
   justify-content: center;
@@ -169,43 +169,31 @@ body {
 
 .divbotao {
   display: flex;
-  justify-content: space-evenly;
-  gap: 5rem;
+  justify-content: center;
+  gap: 15rem;
 }
 
 .botaoInscrever {
   height: 10rem;
-  width: auto;
-  padding: 1rem;
+  width: 35rem;
   font-size: 6rem;
-  margin: 10rem;
+  margin-bottom: 10rem;
   background-color: white;
-  color: black;
+  color: rgb(10, 134, 134);
   border-radius: 1rem;
-  border: 0.5 solid black;
+  border: none;
 }
 
 .botaoInscrever:hover {
   transition: 1.5s;
   border: 0.5px solid white;
-  background-color: black;
-  color: rgb(250, 227, 230);
-}
-.mulheres {
-  height: 40rem;
-  width: 80rem;
-  animation: go-back 3s;
+  background-color: rgb(10, 134, 134);
+  color: white;
 }
 
-@keyframes go-back {
-  from {
-    transform: translateX(100px);
-  }
-  to {
-    transform: translateX(0);
-  }
-} 
-
+.textosegparteh2 i {
+  font-size: 5rem;
+}
 /* media query ------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 320px) {
