@@ -38,6 +38,7 @@ h1{
     font-size: 65px;
     
 }
+
 h2{
     padding-top: 50px; 
     padding-left: 15px;
@@ -47,20 +48,24 @@ h2{
     justify-content: left;
 }
 
-.ladoEsquerdo a{
-    background-color: rgb(185, 0, 185); 
-    justify-content: center;
-    margin-top: 50px; 
-    margin-left: 15px; 
-    font-size: 20px; 
-    text-decoration: none;
+button {
     display: flex;
-    border: 1px solid;
-    color: white;
     border-color: transparent;
-    border-width: 10px;
-    border-radius: 0;
+    font-size: 20px; 
+    height: 50px;
     width: 135px;
+    gap: 30px;
+    color: white;
+    background-color: rgb(185, 0, 185);
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+    margin-left: 15px;
+}
+
+button:hover{
+    background-color: rgb(202, 86, 183);
 }
 
 .ladoDireito img{
@@ -72,4 +77,34 @@ h2{
 .corpo{
     display: flex;
     flex-direction: row;
+}
+
+@media screen and (max-width: 850px )  {
+        .ladoEsquerdo{
+
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+        }
+
+        h1 {
+          text-align: center;  
+        }
+        h2{
+            text-align: center;
+        }
+        .corpo{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .ladoDireito img{
+            width: 470px;
+            display: none;
+        }
+}
+
+@media screen and (max-width: 2000px ) and (min-width: 851px) {
+    
 }
