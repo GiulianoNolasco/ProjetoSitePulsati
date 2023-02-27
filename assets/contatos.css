@@ -48,6 +48,11 @@ body {
 }
 /* ------------------------------------------HEADER----------------------------------------- */
 
+.tudo {
+  border: 5rem solid white;
+  min-height: 100vh;
+}
+
 .primeiraParte {
   color: white;
   margin: 10rem 10rem 0 10rem;
