@@ -134,9 +134,8 @@ button:hover {
     flex-direction: column;
   }
   .ladoDireito img {
-    width: 70rem;
-    height: 70rem;
-    display: none;
+    width: 60rem;
+    height: 60rem;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 568px) {
@@ -145,9 +144,8 @@ button:hover {
   }
 
   .ladoDireito img {
-    width: 70rem;
-    height: 70rem;
-    display: none;
+    width: 50rem;
+    height: 50rem;
   }
 
   .corpo {
