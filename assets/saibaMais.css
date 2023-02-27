@@ -64,6 +64,7 @@ body {
   height: auto;
 }
 
+
 .primeiraParte h1 {
   font-size: 9rem;
 }
@@ -93,6 +94,15 @@ body {
 
 .informacoes {
   margin-top: 5rem;
+  animation: go-back 3s;
+}
+@keyframes go-back {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 .iconechevron i {
@@ -184,7 +194,17 @@ body {
 .mulheres {
   height: 40rem;
   width: 80rem;
+  animation: go-back 3s;
 }
+
+@keyframes go-back {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} 
 
 /* media query ------------------------------------------------------------------------------- */
 
