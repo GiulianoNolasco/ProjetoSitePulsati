@@ -4,33 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
+    <script>
+      function fnCreateStyleSheets() {
+        for (i = 1; i <= 32; i++) {
+          document.createStyleSheet();
+          StyleSheetCount.innerText = "Total Style Sheets = " + i;
+        }
+      }
+    </script>
   </head>
-  <body>
-    <header class="topo">
-        <img src="arquivos/logo.png" alt="">
-        <a href="">Saber mais</a>
-        <a href="">Quem somos</a>
-        <a href="">Projetos</a>
-        <a href="">Entre em contato</a>
-    </header>
 
-    <main class="corpo">
-      <div class="ladoEsquerdo">
-        <h1>MULHERES<br/>NA TECNOLOGIA</h1>
-        <h2>Preparar e orientar mulheres <br/> para carreiras na área <br/>de tecnologia.</h2>
+  <body onLoad="fnCreateStyleSheets()">
+    <div class="tudo">
+      <div id="StyleSheetCount"></div>
+      <header class="topo">
+        <img src="assets/logo.png" alt="" />
+        <a href="learnmore.html">Saber mais</a>
+        <a href="" class="quemsomos">Quem somos</a>
+        <a href="">Contatos</a>
+      </header>
 
-        <button>Saiba Mais</button>
-      </div>
+      <main class="corpo">
+        <div class="ladoEsquerdo">
+          <h1>MULHERES<br />NA TECNOLOGIA</h1>
+          <h2>
+            Preparar e orientar mulheres <br />
+            para carreiras na área <br />de tecnologia.
+          </h2>
+          <div class="botaodiv">
+            <a href="learnmore.html">
+              <button>Saiba Mais</button>
+            </a>
+          </div>
+        </div>
 
-      <div class="ladoDireito">
-        <img src="arquivos/mulhersf.png" alt="">
-      </div>
-    
-    </main>
-
-
+        <div class="ladoDireito">
+          <img src="assets/mulhersf.png" alt="" />
+        </div>
+      </main>
+    </div>
   </body>
 </html>

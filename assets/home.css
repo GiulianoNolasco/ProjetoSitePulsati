@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.tudo {
+  border: 5rem solid white;
+  min-height: 100vh;
+}
+
+.topo {
+  display: flex;
+  justify-content: left;
+  gap: 4rem;
+  margin: 5rem;
+  color: white;
+  align-items: center;
+  font-size: 25rem;
+  height: 10rem;
+  width: max-content;
+}
+
+.topo img {
+  width: 9rem;
+  height: 9rem;
+}
+
+.topo a {
+  color: rgb(216, 216, 216);
+  text-decoration: none;
+  width: max-content;
+}
+
+.topo a:hover {
+  color: white;
+}
+.ladoEsquerdo {
+  margin: 10rem;
+}
+
+h1 {
+  width: max-content;
+  padding-top: 10rem;
+  padding-left: 0.5rem;
+  color: white;
+  display: flex;
+  justify-content: left;
+  font-size: 9rem;
+  text-align: center;
+}
+
+h2 {
+  width: max-content;
+  padding-top: 15rem;
+  padding-left: 0rem;
+  font-size: 6rem;
+  color: white;
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  width: max-content;
+}
+.botaodiv {
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+button {
+  display: flex;
+  border-color: transparent;
+  border-radius: 3rem;
+  font-size: 7rem;
+  height: 15rem;
+  width: 50rem;
+  gap: 3rem;
+  color: white;
+  background-color: rgb(185, 0, 185);
+  margin-top: 20rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+button:hover {
+  background-color: rgb(202, 86, 183);
+}
+
+.botaodiv a {
+  text-decoration: none;
+}
+
+.ladoDireito {
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+.ladoDireito img {
+  width: 120rem;
+  height: 140rem;
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  background-color: transparent;
+}
+
+.corpo {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+/* media query ------------------------------------------------------------------------------- */
+@media screen and (max-width: 320px) {
+  * {
+    font-size: 17%;
+  }
+  .quemsomos {
+    display: none;
+  }
+
+  .ladoDireito img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 568px) {
+  * {
+    font-size: 20%;
+  }
+  .quemsomos {
+    display: none;
+  }
+
+  .ladoDireito img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 569px) and (max-width: 768px) {
+  * {
+    font-size: 22.5%;
+  }
+
+  .ladoDireito img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  * {
+    font-size: 25%;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  * {
+    font-size: 27.5%;
+  }
+
+  .topo {
+    font-size: 15rem;
+  }
+  button {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1680px) {
+  * {
+    font-size: 30%;
+  }
+
+  .topo {
+    font-size: 15rem;
+  }
+  button {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (min-width: 1681px) {
+  * {
+    font-size: 30.5%;
+  }
+  .topo {
+    font-size: 15rem;
+  }
+
+  button {
+    font-size: 5rem;
+  }
+}
