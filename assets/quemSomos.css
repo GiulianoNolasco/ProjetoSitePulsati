@@ -39,21 +39,22 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
 .logo {
-  height: 9.75rem;
-  width: 25rem;
+  height: 16.75rem;
+  width: 40rem;
+  background: transparent;
 }
 
 .logo2 {
-  height: 8.75rem;
-  width: 25rem;
-}
-
-.logos {
-  margin: 10rem 10rem 10rem 10rem;
-  display: flex;
-  justify-content: center;
-  gap: 8rem;
+  height: 15.75rem;
+  width: 40rem;
+  background: transparent;
 }
 
 .informacoes {
@@ -69,15 +70,15 @@ body {
   margin: 5rem;
   width: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .h1segtexto {
-  width: 50%;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
-  height: auto;
+  width: 50%;
 }
 
 .segtexto h1 {
@@ -91,7 +92,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   height: auto;
   width: auto;
   margin: 5rem;
@@ -126,13 +127,14 @@ body {
 .divbotao {
   display: flex;
   justify-content: center;
+  gap: 15rem;
 }
 
 .botaoInscrever {
   height: 10rem;
   width: 35rem;
   font-size: 6rem;
-  margin: 10rem;
+  margin-bottom: 10rem;
   background-color: white;
   color: rgb(10, 134, 134);
   border-radius: 1rem;
@@ -152,22 +154,13 @@ body {
   * {
     font-size: 15%;
   }
-  /* 
-  .imagemsegparte img {
-    height: 0rem;
-    width: 0rem;
-  } */
 }
 
 @media screen and (min-width: 321px) and (max-width: 568px) {
   * {
     font-size: 20%;
   }
-  /* 
-  .imagemsegparte img {
-    height: 0rem;
-    width: 0rem;
-  } */
+
   .textosegparteh2 h2 {
     font-size: 3rem;
   }
@@ -217,5 +210,8 @@ body {
 
   .textosegparteh2 h2 {
     font-size: 4rem;
+  }
+  .segundaParte {
+    margin: 20rem;
   }
 }
