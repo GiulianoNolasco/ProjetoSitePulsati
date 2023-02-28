@@ -208,6 +208,7 @@ body {
   color: black;
   border-radius: 1rem;
   border: 0.5 solid black;
+  cursor: pointer;
 }
 
 .botaoInscrever:hover {

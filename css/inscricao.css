@@ -231,6 +231,8 @@ input:placeholder-shown {
   color: black;
   border-radius: 1rem;
   border: 0.5px solid black;
+  cursor: pointer;
+
 }
 
 .botaoInscrever:hover {
