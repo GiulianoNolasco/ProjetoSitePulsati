@@ -79,20 +79,7 @@ body {
   }
 }
 
-/* .mulheres {
-  height: 40rem;
-  width: 80rem;
-  animation: aparecer 3s;
-}
 
-@keyframes aparecer {
-  from {
-    width: 0;
-  }
-  to {
-    width: 80rem;
-  }
-} */
 .tudo {
   border: 5rem solid white;
   min-height: 100vh;
@@ -204,6 +191,8 @@ input:placeholder-shown {
   background-color: black;
   color: white;
 } */
+
+
 .segundaParte {
   background-color: rgb(250, 227, 230);
   margin: 10rem;
