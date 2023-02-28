@@ -83,7 +83,7 @@ body {
 
 @keyframes aparecerDireita {
   from {
-    margin-left: 100%;
+    margin-left: 60%;
   }
 
   to {
