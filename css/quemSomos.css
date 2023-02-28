@@ -47,10 +47,13 @@ body {
 .topo a:hover {
   color: rgb(10, 134, 134);
 }
-/* ------------------------------------------HEADER----------------------------------------- */
+
 .quemsomos {
   display: none;
 }
+
+/* ------------------------------------------HEADER----------------------------------------- */
+
 
 .tudo {
   border: 5rem solid white;
@@ -70,6 +73,12 @@ body {
 
 .primeiraParte h1 {
   font-size: 9rem;
+  transition: 1s;
+}
+
+.primeiraParte h1:hover{
+  font-size: 10rem;
+  color: rgb(10, 134, 134);
 }
 
 .primeiraParte h2 {

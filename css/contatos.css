@@ -74,6 +74,7 @@ body {
 
 .primeiraParte h1:hover {
   color: rgb(10, 134, 134);
+  font-size: 10rem;
 }
 
 .primeiraParte h2 {
@@ -194,6 +195,15 @@ body {
 .textosegparteh2 i {
   font-size: 5rem;
 }
+
+i{
+  transition: 0.5s;
+}
+
+i:hover{
+  font-size: 6rem;
+}
+
 /* media query ------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 320px) {
