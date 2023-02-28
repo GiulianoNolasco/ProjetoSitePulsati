@@ -83,14 +83,30 @@ button {
   justify-content: center;
   align-items: center;
   margin-left: 1.5rem;
+  border-color: rgb(201, 96, 201);
+  box-shadow: 0 0 40px 40px rgb(201, 96, 201) inset, 0 0 0 0 rgb(201, 96, 201);
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 button:hover {
-  transition: 1.5s;
-  border: 0.5px solid rgb(201, 96, 201);
   background-color: white;
   color: rgb(197, 102, 197);
+  box-shadow: 0 0 10px 0 rgb(201, 96, 201) inset, 0 0 10px 4px rgb(201, 96, 201);;
+
 }
+
+/* .third {
+  border-color: rgb(201, 96, 201);
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+} */
+
 
 .botaodiv a {
   text-decoration: none;
