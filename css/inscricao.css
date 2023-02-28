@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
 
 * {
   font-family: "Roboto", sans-serif;
@@ -47,7 +46,7 @@ body {
 }
 
 .topo a:hover {
-  color: rgb(250, 227, 230);
+  color: rgb(197, 102, 197);
 }
 /* ------------------------------------------HEADER----------------------------------------- */
 .mulheresdiv {
@@ -58,15 +57,13 @@ body {
   text-align: center;
 }
 
-
 .mulheresdiv h1 {
   font-size: 9rem;
   width: max-content;
   color: rgb(197, 102, 197);
-  font-family: 'Bungee Shade', cursiva;
-  animation-name: aparecerDireita; 
+  font-family: "Bungee Shade", cursiva;
+  animation-name: aparecerDireita;
   animation-duration: 3s;
- 
 }
 
 @keyframes aparecerDireita {
@@ -78,7 +75,6 @@ body {
     margin-left: 0%;
   }
 }
-
 
 .tudo {
   border: 5rem solid white;
@@ -192,7 +188,6 @@ input:placeholder-shown {
   color: white;
 } */
 
-
 .segundaParte {
   background-color: rgb(250, 227, 230);
   margin: 10rem;
@@ -232,7 +227,6 @@ input:placeholder-shown {
   border-radius: 1rem;
   border: 0.5px solid black;
   cursor: pointer;
-
 }
 
 .botaoInscrever:hover {
