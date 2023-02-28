@@ -92,8 +92,7 @@ button {
 button:hover {
   background-color: white;
   color: rgb(197, 102, 197);
-  box-shadow: 0 0 10px 0 rgb(201, 96, 201) inset, 0 0 10px 4px rgb(201, 96, 201);;
-
+  box-shadow: 0 0 10px 0 rgb(201, 96, 201) inset, 0 0 10px 4px rgb(201, 96, 201);
 }
 
 .botaodiv a {
@@ -114,7 +113,7 @@ button:hover {
   background-color: transparent;
 }
 
-.imgPequena{
+.imgPequena {
   display: none;
 }
 
@@ -132,6 +131,7 @@ button:hover {
 
   .imgGrande {
     width: 70rem;
+
     height: 70rem;
   }
 
@@ -145,7 +145,7 @@ button:hover {
     display: none;
   }
 
-  .imgPequena{
+  .imgPequena {
     display: flex;
     align-items: center;
     width: 50rem;
@@ -167,7 +167,7 @@ button:hover {
     display: flex;
     flex-direction: column;
   }
-  .imgPequena{
+  .imgPequena {
     display: flex;
     align-items: center;
     width: 50rem;
@@ -219,6 +219,7 @@ button:hover {
   }
   button {
     font-size: 5rem;
+    cursor: pointer;
   }
 
   .imgGrande {

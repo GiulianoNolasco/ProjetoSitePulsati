@@ -219,16 +219,15 @@ input:placeholder-shown {
 }
 
 .botaoInscrever:hover {
+  color: white;
   transition: 1.5s;
   border: 0.5px solid white;
   background-color: black;
-  color: white;
 }
 
 .textosegparteh2 i {
   font-size: 5rem;
 }
-
 
 /* media query ------------------------------------------------------------------------------- */
 

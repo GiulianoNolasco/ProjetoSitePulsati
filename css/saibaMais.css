@@ -194,9 +194,9 @@ body {
 
 .botaoInscrever:hover {
   transition: 1.5s;
-  border: 0.5px solid black;
+  border: 0.5px solid white;
   background-color: black;
-  color: black;
+  color: white;
 }
 
 .mulheres {
