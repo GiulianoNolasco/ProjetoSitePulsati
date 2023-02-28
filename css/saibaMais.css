@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
 
 * {
   font-family: "Roboto", sans-serif;
@@ -75,10 +75,9 @@ body {
   font-size: 9rem;
   width: max-content;
   color: rgb(197, 102, 197);
-  font-family: 'Bungee Shade', cursiva;
-  animation-name: aparecerDireita; 
+  font-family: "Bungee Shade", cursiva;
+  animation-name: aparecerDireita;
   animation-duration: 3s;
- 
 }
 
 @keyframes aparecerDireita {
@@ -196,6 +195,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   gap: 5rem;
+  animation-name: aparecerEsquerda;
+  animation-duration: 3s;
 }
 
 .botaoInscrever {
