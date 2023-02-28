@@ -206,16 +206,10 @@ body {
   animation-name: aparecer;
 }
 
-
 @keyframes aparecer {
   from {
-<<<<<<< HEAD
     margin-left: 100%;
-=======
-    width: 0;
->>>>>>> ea1cedfeebddb5c1b4cafa10c96fdf48354104fa
   }
-
   to {
     margin-left: 0%;
   }
