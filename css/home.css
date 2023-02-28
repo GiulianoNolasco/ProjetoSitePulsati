@@ -96,18 +96,6 @@ button:hover {
 
 }
 
-/* .third {
-  border-color: rgb(201, 96, 201);
-  color: #fff;
-  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
-  -webkit-transition: all 150ms ease-in-out;
-  transition: all 150ms ease-in-out;
-}
-.third:hover {
-  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
-} */
-
-
 .botaodiv a {
   text-decoration: none;
 }

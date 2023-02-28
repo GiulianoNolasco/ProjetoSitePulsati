@@ -52,6 +52,7 @@ body {
 .saibamais {
   display: none;
 }
+
 .tudo {
   border: 5rem solid white;
   min-height: 100vh;
@@ -97,6 +98,18 @@ body {
 
 .informacoes {
   margin-top: 5rem;
+  animation-name: aparecerEsquerda;
+  animation-duration: 3s;
+}
+
+@keyframes aparecerEsquerda {
+  from {
+    margin-right: 100%;
+  }
+
+  to {
+    margin-right: 0%;
+  }
 }
 
 .iconechevron i {
@@ -185,18 +198,20 @@ body {
   background-color: black;
   color: black;
 }
+
 .mulheres {
   height: 40rem;
   width: 80rem;
-  animation: aparecer 3s;
+  animation-duration: 3s;
+  animation-name: aparecer;
 }
 
 @keyframes aparecer {
   from {
-    width: 0;
+    margin-left: 100%;
   }
   to {
-    width: 80rem;
+    margin-left: 0%;
   }
 }
 

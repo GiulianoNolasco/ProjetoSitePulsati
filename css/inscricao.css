@@ -228,6 +228,8 @@ input:placeholder-shown {
 .textosegparteh2 i {
   font-size: 5rem;
 }
+
+
 /* media query ------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 320px) {
