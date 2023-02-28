@@ -9,6 +9,7 @@
 }
 
 body {
+  overflow-x: hidden;
   background-size: cover;
   background-color: black;
   display: flex;

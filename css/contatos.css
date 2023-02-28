@@ -9,6 +9,7 @@
 }
 
 body {
+  overflow-x: hidden;
   background-size: cover;
   background-color: black;
   display: flex;
@@ -197,11 +198,11 @@ body {
   font-size: 5rem;
 }
 
-i{
+i {
   transition: 0.5s;
 }
 
-i:hover{
+i:hover {
   font-size: 6rem;
 }
 
