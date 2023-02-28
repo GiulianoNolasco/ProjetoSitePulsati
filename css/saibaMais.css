@@ -98,16 +98,8 @@ body {
 
 .informacoes {
   margin-top: 5rem;
-  animation: go-back 3s;
 }
-@keyframes go-back {
-  from {
-    transform: translateX(100px);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
+
 
 .iconechevron i {
   margin-top: 5rem;
@@ -198,15 +190,15 @@ body {
 .mulheres {
   height: 40rem;
   width: 80rem;
-  animation: go-back 3s;
+  animation: aparecer 3s;
 }
 
-@keyframes go-back {
+@keyframes aparecer {
   from {
-    transform: translateX(100px);
+    width: 0; 
   }
   to {
-    transform: translateX(0);
+    width: 80rem;
   }
 } 
 
