@@ -37,6 +37,12 @@ body {
   height: 9rem;
 }
 
+.topo img:hover {
+  width: 9rem;
+  height: 9rem;
+  transform: scale(1.1);
+}
+
 .topo a {
   color: rgb(216, 216, 216);
   text-decoration: none;
@@ -45,6 +51,7 @@ body {
 }
 
 .topo a:hover {
+  transform: scale(1.1);
   color: rgb(250, 227, 230);
 }
 

@@ -39,6 +39,11 @@ body {
   height: 9rem;
 }
 
+.topo img:hover {
+  width: 9rem;
+  height: 9rem;
+  transform: scale(1.1);
+}
 .topo a {
   color: rgb(216, 216, 216);
   text-decoration: none;
@@ -48,6 +53,7 @@ body {
 
 .topo a:hover {
   color: rgb(10, 134, 134);
+  transform: scale(1.1);
 }
 
 .quemsomos {

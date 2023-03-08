@@ -30,7 +30,7 @@ body {
 }
 
 .tudo {
-  border: 5rem solid white;
+  border: 7.5rem solid white;
   min-height: 100vh;
 }
 .ladoEsquerdo img {
@@ -39,18 +39,25 @@ body {
 .topo {
   display: flex;
   justify-content: left;
-  gap: 4rem;
-  margin: 5rem;
+  gap: 7rem;
+  margin: 10rem;
+  margin-left: 7.5rem;
   color: white;
   align-items: center;
-  font-size: 25rem;
+  font-size: 27rem;
   height: 10rem;
   width: max-content;
 }
 
 .topo img {
-  width: 9rem;
-  height: 9rem;
+  width: 13rem;
+  height: 13rem;
+}
+
+.topo img:hover {
+  transform: scale(1.1);
+  width: 13rem;
+  height: 13rem;
 }
 
 .topo a {
@@ -60,6 +67,7 @@ body {
 }
 
 .topo a:hover {
+  transform: scale(1.1);
   color: rgb(197, 102, 197);
 }
 
@@ -120,7 +128,7 @@ button {
   border-color: rgb(201, 96, 201);
   box-shadow: 0 0 40px 40px rgb(201, 96, 201) inset, 0 0 0 0 rgb(201, 96, 201);
   -webkit-transition: all 150ms ease-in-out;
-  transition: all 150ms ease-in-out;
+  transition: 150ms ease-in-out;
   cursor: pointer;
 }
 
